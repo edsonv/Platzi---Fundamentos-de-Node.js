@@ -17,3 +17,5 @@ setInterval(() => {
 }, 1000);
 
 console.log('Segunda instrucción');
+
+console.log('última instrucción con nodemon');
