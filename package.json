@@ -18,10 +18,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
     "serve": "gulp serve",
-    "start": "gulp"
+    "start": "gulp",
+    "electron": "electron ./herramientas/electron/index.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "electron": "^34.0.1",
     "gulp": "^5.0.0",
     "gulp-server-livereload": "^1.9.2",
     "moment": "^2.30.1",
