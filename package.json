@@ -15,10 +15,15 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "start": "gulp"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "gulp": "^5.0.0",
+    "gulp-server-livereload": "^1.9.2",
     "moment": "^2.30.1",
     "puppeteer": "^24.1.1",
     "sharp": "^0.33.5"
